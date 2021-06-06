@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            Weather App
+        </div>
+    </header>
+    <form method="post" autocomplete="off">
+        <input type="text" name="place" id="place" placeholder="Enter Your Place Here." autocomplete="off">
+        <button type="submit">Submit</button>
+    </form>
+    <section style="display:none">
+        <div class="result">
+            <img src="https://bmcdn.nl/assets/weather-icons/v1.5/clear-day.svg" />
+            <h1 class="place">Tamilnadu</h1>
+            <div style="text-align:center">
+                <table style="text-align:left;display:flex;justify-content:center">
+                    <tr>
+                        <td>Weather</td>
+                        <td>:</td>
+                        <td>
+                            <p class="weather">Rainy</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Temparature</td>
+                        <td>:</td>
+                        <td>
+                            <p class="temp"><b>Temparature</b> 36.3 C</p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Wind Speed</td>
+                        <td>:</td>
+                        <td>
+                            <p class="windspeed"><b>Wind Speed</b> 10 m/s</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src=""
+                style="width: 100%;height: 300px;"></iframe><br />
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
