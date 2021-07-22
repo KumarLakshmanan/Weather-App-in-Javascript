@@ -1,0 +1,126 @@
+/* #181818 */
+/* #454545 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Fira Code", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+/* Create Custum Button */
+.btn-custom {
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+}
+/* Primary Button */
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+/* Form Controll Input Text */
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+    -webkit-transition: border 0.2s ease;
+    -moz-transition: border 0.2s ease;
+    -o-transition: border 0.2s ease;
+    -ms-transition: border 0.2s ease;
+}
+/* Form Controll Input Text:focus */
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+}
+/* Form Controll Input Text:active */
+.form-control:active {
+    border-color: #66afe9;
+}
+/* FormControll dark */
+.form-control.form-control-dark {
+    color: #555555;
+    background-color: #e9e9e9;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+}
+/* FormControll dark:focus */
+.form-control.form-control-dark:focus {
+    border-color: #8d8d8d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6);
+}
+/* FormControll dark:active */
+.form-control.form-control-dark:active {
+    border-color: #8d8d8d;
+}
+
+/* Navbar Style */
+.navbar-default { 
+    background-color: #003638;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+/* Jumpotron  */
+.column {
+    background-color: #055052;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: #53B8BB;
+}
+.submitForm{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.icon-image{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

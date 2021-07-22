@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP in Javascript Remake</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar-default">
+      <h3 class="navbar-brand">Weather App</h3>
+    </nav>
+    <div class="column">
+      <form class="submitForm">
+        <input
+          class="form-control form-control-dark"
+          type="text"
+          name="place"
+          id="place"
+          placeholder="Enter your City Name"
+        />
+        <input type="submit" class="btn-custom btn-primary" value="SUBMIT" />
+      </form>
+    </div>
+    <div class="column column2" style="display:none">
+      <h3 class="panel-title">Weather in <span id="placename"></span></h3>
+      <div class="panel-body">
+        <img
+          class="icon-image"
+          src="https://bmcdn.nl/assets/weather-icons/v1.5/mist.svg"
+        />
+      </div>
+      <h4 id="weather_discription"></h4>
+      <h6>Temparature: <span class="celsius"></span></h6>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
